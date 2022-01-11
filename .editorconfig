@@ -10,3 +10,8 @@ trim_trailing_whitespace = true
 [*.{php,css,html,xml,lua,js}]
 indent_style = tab
 indent_size = 4
+
+# YAML, JSON, SQL
+[*.{yml,yaml,yamllint,json,sql}]
+indent_style = space
+indent_size = 2
