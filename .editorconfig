@@ -1,0 +1,24 @@
+root = true
+
+# General configuration
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = tab
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Lua, XML
+[*.{lua,xml}]
+indent_style = space
+indent_size = 4
+
+# YAML, JSON, SQL
+[*.{yml,yaml,yamllint,json,sql}]
+indent_style = space
+indent_size = 2
+
+# Golang
+[*.{go}]
+indent_style = tab
+indent_size = 4
